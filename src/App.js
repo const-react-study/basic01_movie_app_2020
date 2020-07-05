@@ -1,7 +1,16 @@
 import React from 'react';
 
+function Potato(){
+    return <h3>I Love Potato</h3>;
+}
+
 function App() {
-    return <div>Hello!!!!</div>;
+    return (
+        <div>
+            <h1>hello</h1>
+            <Potato/>
+        </div>
+    );
 }
 
 
