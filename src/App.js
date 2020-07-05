@@ -9,6 +9,10 @@ function Food({name, picture}) {
     )
 }
 
+function renderFood(dish){
+    return <Food name={dish.name} picture={dish.image_url}/>;
+}
+
 function App() {
     const foodList = [
         {
@@ -24,7 +28,7 @@ function App() {
     return (
         <div>
             <h1>hello</h1>
-            {foodList.map(dish => (<Food name={dish.name} picture={dish.image_url}/>))}
+            {foodList.map(renderFood)}
         </div>
     );
 }
