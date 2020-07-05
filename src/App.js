@@ -4,15 +4,12 @@ function Food({name, picture}) {
     return (
         <div>
             <h2>나는 {name}를 좋아해요</h2>
-            <img src={picture} alt={name+" 사진"}/>
+            <img src={picture} alt={name + " 사진"}/>
         </div>
     )
 }
 
-function renderFood(dish){
-    return <Food name={dish.name} picture={dish.image_url}/>;
-}
-
+// 정의된 함수의 수를 줄여야 관리하기 편함 간단한건 화살표 함수를 사용.
 function App() {
     const foodList = [
         {
@@ -28,7 +25,7 @@ function App() {
     return (
         <div>
             <h1>hello</h1>
-            {foodList.map(renderFood)}
+            {foodList.map(dish => (<Food name={dish.name} picture={dish.image_url}/>))}
         </div>
     );
 }
