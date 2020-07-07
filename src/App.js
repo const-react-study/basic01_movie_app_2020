@@ -11,6 +11,9 @@ class App extends React.Component {
     componentDidMount(){
         console.log("world!");
     }
+    componentDidUpdate(){
+        console.log("Update!!!!!");
+    }
     add = () => {
         this.setState(current => ({
             count: current.count + 1
