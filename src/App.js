@@ -4,6 +4,13 @@ class App extends React.Component {
     state = {
         count: 0
     };
+    constructor(props) {
+        super(props);
+        console.log("hello");
+    }
+    componentDidMount(){
+        console.log("world!");
+    }
     add = () => {
         this.setState(current => ({
             count: current.count + 1
@@ -16,6 +23,7 @@ class App extends React.Component {
     }
 
     render() {
+        console.log("react");
         return (
             <div>
                 <h1>The number is : {this.state.count}</h1>
