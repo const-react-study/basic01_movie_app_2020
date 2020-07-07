@@ -34,7 +34,7 @@ class App extends Component {
                     )
                     :
                     (
-                        <div>
+                        <div className="movies">
                             {
                                 movies.map(movie => (
                                     <Movie
@@ -43,6 +43,7 @@ class App extends Component {
                                         title={movie.title}
                                         summary={movie.summary}
                                         poster={movie.medium_cover_image}
+                                        genres={movie.genres}
                                     />
                                 ))
                             }
