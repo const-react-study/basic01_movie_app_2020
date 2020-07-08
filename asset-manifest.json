@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/const-react-study/basic01_movie_app_2020/static/css/main.31c500f0.chunk.css",
+    "main.js": "/const-react-study/basic01_movie_app_2020/static/js/main.55ebbbcd.chunk.js",
+    "main.js.map": "/const-react-study/basic01_movie_app_2020/static/js/main.55ebbbcd.chunk.js.map",
+    "runtime-main.js": "/const-react-study/basic01_movie_app_2020/static/js/runtime-main.590002e2.js",
+    "runtime-main.js.map": "/const-react-study/basic01_movie_app_2020/static/js/runtime-main.590002e2.js.map",
+    "static/js/2.229824db.chunk.js": "/const-react-study/basic01_movie_app_2020/static/js/2.229824db.chunk.js",
+    "static/js/2.229824db.chunk.js.map": "/const-react-study/basic01_movie_app_2020/static/js/2.229824db.chunk.js.map",
+    "index.html": "/const-react-study/basic01_movie_app_2020/index.html",
+    "precache-manifest.d94ff6385991c41d41e825a921e05284.js": "/const-react-study/basic01_movie_app_2020/precache-manifest.d94ff6385991c41d41e825a921e05284.js",
+    "service-worker.js": "/const-react-study/basic01_movie_app_2020/service-worker.js",
+    "static/css/main.31c500f0.chunk.css.map": "/const-react-study/basic01_movie_app_2020/static/css/main.31c500f0.chunk.css.map",
+    "static/js/2.229824db.chunk.js.LICENSE.txt": "/const-react-study/basic01_movie_app_2020/static/js/2.229824db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.590002e2.js",
+    "static/js/2.229824db.chunk.js",
+    "static/css/main.31c500f0.chunk.css",
+    "static/js/main.55ebbbcd.chunk.js"
+  ]
+}
